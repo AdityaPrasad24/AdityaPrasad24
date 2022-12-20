@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOaJ7RB808UrNDCYkq27qbZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AdityaPrasad24/AdityaPrasad24/blob/main/MultiLineStatement\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RvEMNehfW99t",
+        "outputId": "f63e23b9-7705-4e2c-856f-c78fdaab92c3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter Your Name,m\n",
+            "Enter Your Age,7\n",
+            "Enter Your School's Name,h\n",
+            "My name is m , My age is 7 , My school is h\n"
+          ]
+        }
+      ],
+      "source": [
+        "#qwe={12}\n",
+        "#print(type(qwe))\n",
+        "name=(input(\"Enter Your Name,\" ))\n",
+        "age=int(input(\"Enter Your Age,\" ))\n",
+        "school=(input(\"Enter Your School's Name,\" ))\n",
+        "print(\"My name is\",name,\", My age is\",age,\", My school is\",school)"
+      ]
+    }
+  ]
+}
